@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:25%;
+}
+
+#menu {
+    background-color: rgb(33 33 33);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+#pageTitle {
+    color: white;
+    font-weight: 100;
+}
+
+.container {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.navbar-option {
+    color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    font-weight:100;
+}
+
